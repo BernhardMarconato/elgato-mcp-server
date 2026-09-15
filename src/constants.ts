@@ -44,6 +44,10 @@ export const KNOWN_APPS: AppDefinition[] = [
 		name: "streamdeck",
 		socketBaseName: "elgato-mcp-streamdeck",
 	},
+	{
+		name: "studio",
+		socketBaseName: "elgato-mcp-studio",
+	},
 ];
 
 /** Separator used when prefixing tool/resource names with the app name. */
